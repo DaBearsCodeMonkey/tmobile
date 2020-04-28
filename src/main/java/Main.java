@@ -1,5 +1,8 @@
+import vendingmachine.FoodVendingMachine;
+import vendingmachine.IVendingMachine;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        IVendingMachine vendingMachine = new FoodVendingMachine();
     }
 }
